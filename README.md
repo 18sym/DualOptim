@@ -1,2 +1,2 @@
-# Defending-Distributed-Label-Noise-An-End-to-end-Dual-Optimization-Approach
+# DualOptim
 Official codes for  ’‘Defending Distributed Label Noise: An End-to-end Dual Optimization Approach’‘
