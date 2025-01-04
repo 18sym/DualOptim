@@ -1,13 +1,6 @@
 # FNBench: Benchmarking FL against Noisy Labels
 
 
-
-## TL;DR
-
-We evaluate some state-of-the-art methods for federated learning against noisy labels.
-
-
-
 ## Installation
 
 Please check below requirements and install packages from `requirements.txt`.
