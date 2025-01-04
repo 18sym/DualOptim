@@ -42,7 +42,7 @@ python main_fed_LNL.py \
 --group_noise_rate 0.0 0.4 \
 --partition dirichlet \
 --dd_alpha 0.5 \
---method dualoptim | tee  fedsam_symmetric04_dir05.txt
+--method dualoptim | tee  symmetric04_dir05.txt
 ```
 
 ```bash
