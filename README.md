@@ -66,25 +66,6 @@ python main_fed_LNL.py \
 ```bash
 ```
 
-### Parameters for learning
-| Parameter                      | Description                                 |
-| ----------------------------- | ---------------------------------------- |
-| `model` | The model architecture. default = `resnet18`. |
-| `dataset`      | Dataset to use. Options:  `cifar10`, `cifar100`. default = `cifar10`. |
-| `lr` | Learning rate for the local models, default = `0.01`. |
-| `momentum` | SGD momentum, default = `0.5`. |
-| `epochs` | The total number of communication roudns, default = `120`. |
-
-### Parameters for federated learning
-| Parameter                      | Description                                 |
-| ----------------------------- | ---------------------------------------- |
-| `local_bs` | Local batch size, default = `50`. |
-| `loca_ep` | Number of local update epochs, default = `5`. |
-| `num_users` | Number of users, Default = `100`. |
-| `frac` | The fraction of participating cleints, default = `0.1`. |
-| `partition`    | The partition way for Non-IID. Options: `dirichlet`, default = `dirichlet` |
-| `dd_alpha` | The concentration parameter alpha for Dirichlet distribution, default = `0.5`. |
-
 
 ### Parameters for noisy label
 | Parameter                      | Description                                 |
