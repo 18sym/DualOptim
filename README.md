@@ -1,4 +1,4 @@
-# FNBench: Benchmarking FL against Noisy Labels
+# DualOptim
 
 
 ## Installation
