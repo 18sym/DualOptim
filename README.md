@@ -1,5 +1,7 @@
 # DualOptim
 
+## Introduction
+Official codes for our paper submitted to IEEE TIFS: Refining Distributed Noisy Clients: An End-to-end Dual Optimization Framework. 
 
 ## Installation
 
@@ -13,7 +15,7 @@ $ pip install -r requirements.txt
 
 ## Usage
 
-The following command is an `symmetric 0.0-0.4` and `mixed 0.0-0.4` example of running the code.
+The following commands are examples representing `symmetric 0.0-0.4`, `pairflip 0.0-0.4` and `mixed 0.0-0.4` label noise settings.
 
 ```bash
 # symmetric 0.0-0.4 dirichlet 1.0 
@@ -32,20 +34,19 @@ python main_fed_LNL.py \
 ```
 
 ```bash
-#
+# pairflip 0.0-0.4 dirichlet 1.0 
+
 python main_fed_LNL.py \
 --dataset cifar10 \
 --model resnet18 \
 --epochs 120 \
---noise_type_lst symmetric \
+--noise_type_lst pairflip \
 --noise_group_num 100  \
 --group_noise_rate 0.0 0.4 \
 --partition dirichlet \
 --dd_alpha 0.5 \
---method dualoptim | tee  symmetric04_dir05.txt
-```
+--method dualoptim | tee  pairflip04_dir05.txt
 
-```bash
 ```
 
 
@@ -63,8 +64,6 @@ python main_fed_LNL.py \
 --method dualoptim | tee mixed04_cifar10_dir1.txt
 ```
 
-```bash
-```
 
 
 ### Parameters for noisy label
