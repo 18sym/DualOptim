@@ -1,7 +1,7 @@
 # DualOptim
 
 ## Introduction
-Official codes for our paper submitted to IEEE TIFS: Refining Distributed Noisy Clients: An End-to-end Dual Optimization Framework. 
+Official codes for our paper submitted to IEEE TIFS: Refining Distributed Noisy Clients: An End-to-end Dual Optimization Framework. This paper is now preprinted on Techrxiv via [this link](https://www.techrxiv.org/users/691169/articles/1258369-refining-distributed-noisy-clients-an-end-to-end-dual-optimization-framework).
 
 ## Installation
 
@@ -75,3 +75,18 @@ python main_fed_LNL.py \
 
 
 Please check `run.sh` for commands for various data and noisy label scenarios.
+
+
+# Citing this work
+If you find this work helpful, please consider crediting our work:
+```
+ @article{DualOptim,
+title={Refining Distributed Noisy Clients: An End-to-end Dual Optimization Framework},
+url={http://dx.doi.org/10.36227/techrxiv.173707406.66001019/v1},
+DOI={10.36227/techrxiv.173707406.66001019/v1},
+publisher={Institute of Electrical and Electronics Engineers (IEEE)},
+author={Jiang, Xuefeng and Li, Peng and Sun, Sheng and Li, Jia and Wu, Lvhua and Wang, Yuwei and Lu, Xiuhua and Ma, Xu and Liu, Min},
+year={2025},
+month=jan
+}
+```
