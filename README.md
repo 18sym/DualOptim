@@ -1,7 +1,7 @@
 # DualOptim
 
 ## Introduction
-Official codes for our paper submitted to IEEE TIFS: Refining Distributed Noisy Clients: An End-to-end Dual Optimization Framework. This paper is now preprinted on Techrxiv via [this link](https://www.techrxiv.org/users/691169/articles/1258369-refining-distributed-noisy-clients-an-end-to-end-dual-optimization-framework).
+Official codes for our paper: Refining Distributed Noisy Clients: An End-to-end Dual Optimization Framework. This paper is now preprinted on Techrxiv via [this link](https://www.techrxiv.org/users/691169/articles/1258369-refining-distributed-noisy-clients-an-end-to-end-dual-optimization-framework).
 
 ## Installation
 
